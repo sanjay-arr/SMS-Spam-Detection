@@ -32,17 +32,11 @@ nltk.download('stopwords')
 ## Project Description
 
 This Spam Message Classifier uses machine learning to detect whether a given SMS is spam or ham (non-spam). The workflow includes data cleaning, preprocessing, and Natural Language Processing (NLP) steps like tokenization, stemming, and stopword removal. TF-IDF vectorization converts text into numerical features. Multiple classifiers—MultinomialNB, BernoulliNB, and GaussianNB—were tested, with MultinomialNB performing best. The project also includes visualizations for word distribution and class balance, and generates .pkl files for easy model deployment.
-The project includes:
-
-Data cleaning and preprocessing
-
-Text transformation using NLP
-
-Feature extraction using TF-IDF
-
-Model training and evaluation
-
-Deployment-ready pickle files for the model and vectorizer
-
-Visualization of word frequency and class distribution
+-The project includes:
+  -Data cleaning and preprocessing
+  -Text transformation using NLP
+  -Feature extraction using TF-IDF
+  -Model training and evaluation
+  -Deployment-ready pickle files for the model and vectorizer
+  -Visualization of word frequency and class distribution
 
