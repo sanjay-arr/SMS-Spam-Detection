@@ -1,6 +1,7 @@
 # SMS Spam Detection using Machine Learning
 
 ## Aim:
+
 To build a machine learning model that accurately classifies SMS messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) and deploy it using Streamlit for easy user interaction.
 
 ### Requirements
@@ -52,7 +53,6 @@ This Spam Message Classifier uses machine learning to detect whether a given SMS
 - **External libraries used** – NLTK, scikit-learn, matplotlib, seaborn, pickle, and pandas.
 
 ## Output:
-<img width="1918" height="1199" alt="image" src="https://github.com/user-attachments/assets/93161554-b2f3-407e-82ad-d85f8c08601a" />
 
 <img width="1918" height="1199" alt="image" src="https://github.com/user-attachments/assets/975cb1cb-0266-4b37-8ecb-29d91c43b6ca" />
 
