@@ -31,13 +31,18 @@ nltk.download('stopwords')
 ```
 ## Project Description
 
-This project processes raw SMS messages, cleans and tokenizes the text, and applies a TF-IDF Vectorizer to convert them into numerical features. A Multinomial Naive Bayes classifier is trained on labeled data to predict whether a given message is spam or not.
+This Spam Message Classifier uses machine learning to detect whether a given SMS is spam or ham (non-spam). The workflow includes data cleaning, preprocessing, and Natural Language Processing (NLP) steps like tokenization, stemming, and stopword removal. TF-IDF vectorization converts text into numerical features. Multiple classifiers—MultinomialNB, BernoulliNB, and GaussianNB—were tested, with MultinomialNB performing best. The project also includes visualizations for word distribution and class balance, and generates .pkl files for easy model deployment.
+The project includes:
 
-The app is built using Streamlit, allowing users to:
+Data cleaning and preprocessing
 
-Enter or paste any SMS text
+Text transformation using NLP
 
-Instantly classify it as Spam or Ham
+Feature extraction using TF-IDF
 
-View model predictions with simple UI
+Model training and evaluation
+
+Deployment-ready pickle files for the model and vectorizer
+
+Visualization of word frequency and class distribution
 
