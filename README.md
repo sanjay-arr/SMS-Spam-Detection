@@ -14,3 +14,11 @@ To build a machine learning model that accurately classifies SMS messages as Spa
   - streamlit  
   - pickle
 
+## Installation
+
+Install all dependencies using:
+
+```bash
+pip install nltk streamlit scikit-learn pandas numpy
+```
+
