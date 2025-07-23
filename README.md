@@ -20,5 +20,13 @@ Install all dependencies using:
 
 ```bash
 pip install nltk streamlit scikit-learn pandas numpy
+pip install streamlit
+pip install nltk
+```
+Also, download required NLTK data:
+```bash
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 ```
 
